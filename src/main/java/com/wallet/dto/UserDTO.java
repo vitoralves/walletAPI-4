@@ -19,7 +19,6 @@ public class UserDTO {
 	private String name;
 	@NotNull
 	@Length(min=6, message="A senha deve conter no mini 6 caracteres")
-
 	private String password;
 
 }
